@@ -42,7 +42,7 @@ if __name__ == '__main__':
                 print(result)
         
             elif opcion == 2:
-                stdin, stdout, stderr = client.exec_command('cat /proc/meminfo')
+                stdin, stdout, stderr = client.exec_command('free')
 
                 time.sleep(1)
 
